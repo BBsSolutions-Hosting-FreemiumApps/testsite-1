@@ -3,77 +3,323 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Grok Bot-account volledig laten inrichten | BBsS Ben Builds Solutions</title>
-  <meta name="description" content="Persoonlijke hulp bij het volledig opzetten van je Grok Bot-account, stap voor stap, door Benjamin Smit van BBsS Ben Builds Solutions.">
+  <title>BBsS Ben Builds Solutions — Je Grok Bot-account volledig ingericht</title>
+  <meta name="description" content="Persoonlijke hulp bij het volledig opzetten van je Grok Bot-account: bots, koppelingen en routines. Interactieve demo's laten precies zien wat je krijgt. Onafhankelijke dienst van Benjamin Smit.">
+  <meta name="theme-color" content="#0b1220">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <a class="skip" href="#main">Naar de inhoud</a>
-  <header class="hero">
-    <div class="wrap">
-      <p class="eyebrow">BBsS Ben Builds Solutions</p>
-      <h1>Je Grok Bot-account volledig ingericht</h1>
-      <p class="lead">Ik help je stap voor stap, van het eerste account tot een opzet die voor jou werkt.</p>
-      <a class="button" href="#contact">Neem contact op</a>
+
+  <header class="topbar">
+    <div class="wrap bar-inner">
+      <a class="brand" href="#top" aria-label="BBsS Ben Builds Solutions, naar boven">
+        <span class="brand-mark" aria-hidden="true">BBsS</span>
+        <span class="brand-name">Ben Builds Solutions</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="sitenav">Menu</button>
+      <nav class="sitenav" id="sitenav" aria-label="Hoofdmenu">
+        <ul>
+          <li><a href="#diensten">Diensten</a></li>
+          <li><a href="#simulator">Probeer het zelf</a></li>
+          <li><a href="#chat">Live demo</a></li>
+          <li><a href="#portfolio">Portfolio &amp; video</a></li>
+          <li><a href="#werkwijze">Werkwijze</a></li>
+          <li><a href="#faq">Vragen</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
   <main id="main">
-    <section id="diensten" aria-labelledby="h-diensten">
-      <div class="wrap">
-        <h2 id="h-diensten">Wat ik voor je doe</h2>
-        <div class="grid">
-          <article class="card"><h3>Account aanmaken en instellen</h3><p>Ik help je met het aanmaken van je account en de belangrijkste instellingen.</p></article>
-          <article class="card"><h3>Je eerste bots inrichten</h3><p>Samen geven we elke bot een duidelijke taak.</p></article>
-          <article class="card"><h3>Koppelingen maken</h3><p>Verbind je e-mail, agenda en andere diensten.</p></article>
-          <article class="card"><h3>Routines instellen</h3><p>Laat vaste taken op een schema automatisch uitvoeren.</p></article>
-          <article class="card"><h3>Uitleg om het zelf te gebruiken</h3><p>Zodat je er na afloop zelfstandig mee verder kunt.</p></article>
+    <section class="hero" id="top" aria-labelledby="h-hero">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">BBsS Ben Builds Solutions</p>
+          <h1 id="h-hero">Je Grok&nbsp;Bot-account <span class="type" id="type-line"></span><span class="caret" aria-hidden="true">|</span></h1>
+          <p class="lead" id="hero-sub">Ik help je stap voor stap, van het eerste account tot een opzet die voor jou werkt — met rustige uitleg, geen jargon.</p>
+          <div class="hero-actions">
+            <a class="button" href="#simulator">Probeer de simulator</a>
+            <a class="button ghost" href="#contact">Neem contact op</a>
+          </div>
+          <p class="hero-hint">Tip: verken hieronder de interactieve demo's om precies te zien wat je krijgt.</p>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orbit">
+            <div class="orbit-core"><span>Grok&nbsp;Bot</span></div>
+            <div class="orbit-ring r1"><i class="node n1">Account</i></div>
+            <div class="orbit-ring r2"><i class="node n2">Bots</i><i class="node n3">Koppelingen</i></div>
+            <div class="orbit-ring r3"><i class="node n4">Routines</i><i class="node n5">Uitleg</i></div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="werkwijze" class="alt" aria-labelledby="h-werkwijze">
+    <section id="diensten" aria-labelledby="h-diensten">
+      <div class="wrap">
+        <h2 id="h-diensten">Wat ik voor je doe</h2>
+        <p class="section-intro">Klik op een blok om te zien wat het oplevert.</p>
+        <div class="grid" id="diensten-grid">
+          <button class="card expandable" type="button" aria-expanded="false">
+            <h3>Account aanmaken en instellen</h3>
+            <p>Ik help je met het aanmaken van je account en de belangrijkste instellingen.</p>
+            <span class="card-more" data-open="Meer zien" data-close="Minder">Meer zien</span>
+            <div class="card-detail">
+              <ul>
+                <li>Account aangemaakt met veilige basisinstellingen</li>
+                <li>Overzichtelijke beginschermen, afgestemd op jouw taken</li>
+                <li>Checkliste van alles wat is ingesteld</li>
+              </ul>
+            </div>
+          </button>
+          <button class="card expandable" type="button" aria-expanded="false">
+            <h3>Je eerste bots inrichten</h3>
+            <p>Samen geven we elke bot een duidelijke taak.</p>
+            <span class="card-more" data-open="Meer zien" data-close="Minder">Meer zien</span>
+            <div class="card-detail">
+              <ul>
+                <li>Per bot een heldere naam, rol en instructie</li>
+                <li>Voorbeeldopdrachten om mee te beginnen</li>
+                <li>Overzicht van wat elke bot voor je doet</li>
+              </ul>
+            </div>
+          </button>
+          <button class="card expandable" type="button" aria-expanded="false">
+            <h3>Koppelingen maken</h3>
+            <p>Verbind je e-mail, agenda en andere diensten.</p>
+            <span class="card-more" data-open="Meer zien" data-close="Minder">Meer zien</span>
+            <div class="card-detail">
+              <ul>
+                <li>E-mail en agenda gekoppeld, stap voor stap begeleid</li>
+                <li>Per koppeling een korte proefrun samen met jou</li>
+                <li>Uitleg over wat elke koppeling wél en niet doet</li>
+              </ul>
+            </div>
+          </button>
+          <button class="card expandable" type="button" aria-expanded="false">
+            <h3>Routines instellen</h3>
+            <p>Laat vaste taken op een schema automatisch uitvoeren.</p>
+            <span class="card-more" data-open="Meer zien" data-close="Minder">Meer zien</span>
+            <div class="card-detail">
+              <ul>
+                <li>Schema's voor vaste taken, afgestemd op je week</li>
+                <li>Veilig opgezette opdrachten per routine</li>
+                <li>Test-run van elke routine vóór activering</li>
+              </ul>
+            </div>
+          </button>
+          <button class="card expandable" type="button" aria-expanded="false">
+            <h3>Uitleg om het zelf te gebruiken</h3>
+            <p>Zodat je er na afloop zelfstandig mee verder kunt.</p>
+            <span class="card-more" data-open="Meer zien" data-close="Minder">Meer zien</span>
+            <div class="card-detail">
+              <ul>
+                <li>Korte, heldere uitleg in gewone taal</li>
+                <li>Eigen referentiekaart met jouw opzet</li>
+                <li>Nazorg: vragen blijven welkom</li>
+              </ul>
+            </div>
+          </button>
+          <button class="card expandable" type="button" aria-expanded="false">
+            <h3>Opschonen en bijhouden</h3>
+            <p>Je opzet blijft overzichtelijk, ook na verloop van tijd.</p>
+            <span class="card-more" data-open="Meer zien" data-close="Minder">Meer zien</span>
+            <div class="card-detail">
+              <ul>
+                <li>Overzicht van actieve bots, koppelingen en routines</li>
+                <li>Aanbevelingen om het overzichtelijk te houden</li>
+                <li>Samen bewaken of alles nog bij je werk past</li>
+              </ul>
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="simulator" class="alt" aria-labelledby="h-sim">
+      <div class="wrap">
+        <h2 id="h-sim">Probeer het zelf: stel je opzet samen</h2>
+        <p class="section-intro">Kies wat je wilt. Rechts zie je meteen een voorbeeld van het opzetplan dat je krijgt — alles wat je hier doet, gebeurt alleen op je eigen scherm.</p>
+        <div class="sim">
+          <form class="sim-panel" id="sim-form" aria-describedby="sim-note">
+            <h3 class="sim-heading">Jouw keuzes</h3>
+            <fieldset>
+              <legend>Waar wil je vooral mee geholpen worden?</legend>
+              <div class="choices">
+                <label><input type="radio" name="doel" value="Overzicht en tijd besparen" checked> Overzicht en tijd besparen</label>
+                <label><input type="radio" name="doel" value="Vaste taken automatiseren"> Vaste taken automatiseren</label>
+                <label><input type="radio" name="doel" value="Beter met e-mail en agenda omgaan"> Beter met e-mail en agenda omgaan</label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Welke onderdelen wil je gebruiken?</legend>
+              <div class="choices">
+                <label><input type="checkbox" name="onderdeel" value="E-mail" checked> E-mail</label>
+                <label><input type="checkbox" name="onderdeel" value="Agenda"> Agenda</label>
+                <label><input type="checkbox" name="onderdeel" value="Notities"> Notities</label>
+                <label><input type="checkbox" name="onderdeel" value="Bestanden"> Bestanden</label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Hoeveel tijd wil je eraan besteden?</legend>
+              <div class="choices">
+                <label><input type="radio" name="tijd" value="Zo min mogelijk" checked> Zo min mogelijk</label>
+                <label><input type="radio" name="tijd" value="Een uurtje per week"> Een uurtje per week</label>
+                <label><input type="radio" name="tijd" value="Meer dan een uur per week"> Meer dan een uur per week</label>
+              </div>
+            </fieldset>
+            <p class="sim-note" id="sim-note">Dit is een voorbeeldsimulatie: er worden geen gegevens verzonden of opgeslagen.</p>
+          </form>
+          <div class="sim-output">
+            <h3 class="sim-heading">Voorbeeld van jouw opzetplan</h3>
+            <div class="plan-sheet" id="plan-sheet" aria-live="polite">
+              <p class="plan-title">Jouw opzetplan</p>
+              <ol class="plan-steps" id="plan-steps"></ol>
+              <p class="plan-foot" id="plan-foot"></p>
+            </div>
+            <div class="console" id="sim-console">
+              <div class="console-bar"><span></span><span></span><span></span></div>
+              <pre id="console-out" aria-live="polite"></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="chat" aria-labelledby="h-chat">
+      <div class="wrap">
+        <h2 id="h-chat">Live demo: zo praat je met een bot</h2>
+        <p class="section-intro">Een kleine, offline demo die laat zien hoe zo'n gesprek eruitziet. Kies een vraag of typ er zelf een (de demo antwoordt met vaste voorbeeldzinnen).</p>
+        <div class="chatbox" id="chatbox">
+          <div class="chat-log" id="chat-log" aria-live="polite"></div>
+          <div class="chat-suggest" id="chat-suggest">
+            <button type="button" data-q="Wat kun jij voor mij doen?">Wat kun jij voor mij doen?</button>
+            <button type="button" data-q="Plan mijn week.">Plan mijn week.</button>
+            <button type="button" data-q="Vat mijn mail samen.">Vat mijn mail samen.</button>
+            <button type="button" data-q="Herinner me aan vaste taken.">Herinner me aan vaste taken.</button>
+          </div>
+          <form class="chat-input" id="chat-form">
+            <label class="visually-hidden" for="chat-field">Typ je bericht</label>
+            <input id="chat-field" type="text" placeholder="Typ een bericht…" autocomplete="off" maxlength="140">
+            <button type="submit" class="button small">Verstuur</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="alt" aria-labelledby="h-portfolio">
+      <div class="wrap">
+        <h2 id="h-portfolio">Portfolio &amp; video</h2>
+        <p class="section-intro">Bekijk de demonstratievideo hieronder: een animatie die laat zien hoe zo'n inrichting van begin tot eind loopt. Gebruik de afspeelknop om te starten, te pauzeren en terug te spoelen.</p>
+
+        <figure class="player" id="player">
+          <div class="player-stage">
+            <canvas id="demo-video" width="960" height="540" role="img" aria-label="Demonstratievideo van het inrichten van een Grok Bot-account"></canvas>
+            <p class="player-overlay" id="player-overlay">
+              <button class="button" id="big-play" type="button">▶ Video afspelen</button>
+              <span>3 scènes · ongeveer 45 seconden</span>
+            </p>
+          </div>
+          <figcaption class="player-bar">
+            <button id="playpause" type="button" aria-label="Afspelen of pauzeren">▶</button>
+            <span class="time" id="time-now">0:00</span>
+            <div class="track" id="track" role="slider" aria-label="Videopositie" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0">
+              <div class="track-fill" id="track-fill"></div>
+            </div>
+            <span class="time" id="time-total">0:45</span>
+            <button id="restart" type="button" aria-label="Opnieuw afspelen">⟲</button>
+          </figcaption>
+          <p class="scene-caption" id="scene-caption">Druk op afspelen om de demonstratie te starten.</p>
+        </figure>
+
+        <div class="grid three">
+          <article class="card">
+            <h3>Scène 1 — Account aanmaken</h3>
+            <p>Van leeg scherm naar een account met veilige basisinstellingen en een persoonlijk dashboard.</p>
+          </article>
+          <article class="card">
+            <h3>Scène 2 — Bots en koppelingen</h3>
+            <p>Bots krijgen namen en taken; e-mail en agenda worden stap voor stap verbonden.</p>
+          </article>
+          <article class="card">
+            <h3>Scène 3 — Routines actief</h3>
+            <p>Vaste taken draaien op schema; het overzicht laat zien wat elke routine doet.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="werkwijze" aria-labelledby="h-werkwijze">
       <div class="wrap">
         <h2 id="h-werkwijze">Zo werkt het</h2>
-        <ol class="steps">
-          <li><h3>Kennismaking</h3><p>We bespreken wat je wilt bereiken.</p></li>
-          <li><h3>Inrichten</h3><p>Ik zet je account, bots en koppelingen op.</p></li>
-          <li><h3>Samen testen</h3><p>We lopen alles samen door en passen aan waar nodig.</p></li>
-          <li><h3>Nazorg</h3><p>Ik blijf beschikbaar voor vragen na de oplevering.</p></li>
+        <p class="section-intro">Klik op een stap om meer te lezen.</p>
+        <ol class="steps" id="steps">
+          <li class="step">
+            <button type="button" class="step-head" aria-expanded="false"><span class="step-num" aria-hidden="true">1</span><h3>Kennismaking</h3><span class="step-more" aria-hidden="true">+</span></button>
+            <div class="step-body"><p>We bespreken wat je wilt bereiken en welke taken je het liefst uit handen geeft.</p></div>
+          </li>
+          <li class="step">
+            <button type="button" class="step-head" aria-expanded="false"><span class="step-num" aria-hidden="true">2</span><h3>Inrichten</h3><span class="step-more" aria-hidden="true">+</span></button>
+            <div class="step-body"><p>Ik zet je account, bots en koppelingen op, afgestemd op wat we hebben besproken.</p></div>
+          </li>
+          <li class="step">
+            <button type="button" class="step-head" aria-expanded="false"><span class="step-num" aria-hidden="true">3</span><h3>Samen testen</h3><span class="step-more" aria-hidden="true">+</span></button>
+            <div class="step-body"><p>We lopen alles samen door en passen aan waar nodig.</p></div>
+          </li>
+          <li class="step">
+            <button type="button" class="step-head" aria-expanded="false"><span class="step-num" aria-hidden="true">4</span><h3>Nazorg</h3><span class="step-more" aria-hidden="true">+</span></button>
+            <div class="step-body"><p>Ik blijf beschikbaar voor vragen na de oplevering, en we kunnen de opzet later samen bijstellen.</p></div>
+          </li>
         </ol>
       </div>
     </section>
 
-    <section id="voor-wie" aria-labelledby="h-wie">
+    <section id="voor-wie" class="alt" aria-labelledby="h-wie">
       <div class="wrap">
         <h2 id="h-wie">Voor wie</h2>
         <p>Voor ondernemers, zzp'ers en particulieren die tijd willen besparen, maar geen zin hebben om alles zelf uit te zoeken.</p>
+        <div class="personas">
+          <div class="persona"><h3>Ondernemers</h3><p>Wil een opzet die meegroeit met de zaak.</p></div>
+          <div class="persona"><h3>Zzp'ers</h3><p>Wil vaste taken structureel uit handen geven.</p></div>
+          <div class="persona"><h3>Particulieren</h3><p>Wil overzicht in mail, agenda en herinneringen.</p></div>
+        </div>
       </div>
     </section>
 
-    <section id="faq" class="alt" aria-labelledby="h-faq">
+    <section id="faq" aria-labelledby="h-faq">
       <div class="wrap">
         <h2 id="h-faq">Veelgestelde vragen</h2>
-        <details><summary>Heb ik technische kennis nodig?</summary><p>Nee, ik leg alles in begrijpelijke taal uit.</p></details>
-        <details><summary>Wat heb ik nodig om te starten?</summary><p>Een apparaat met internet en de diensten die je wilt koppelen.</p></details>
-        <details><summary>Kan ik het daarna zelf beheren?</summary><p>Ja, uitleg hoort bij de hulp zodat je zelfstandig verder kunt.</p></details>
-        <details><summary>Is deze dienst van Grok Bot zelf?</summary><p>Nee, dit is een onafhankelijke dienst.</p></details>
+        <label class="visually-hidden" for="faq-search">Zoek in veelgestelde vragen</label>
+        <input type="search" id="faq-search" placeholder="Zoek een vraag…" autocomplete="off">
+        <p class="faq-count" id="faq-count" aria-live="polite"></p>
+        <div class="faq-list" id="faq-list">
+          <details><summary>Heb ik technische kennis nodig?</summary><p>Nee, ik leg alles in begrijpelijke taal uit.</p></details>
+          <details><summary>Wat heb ik nodig om te starten?</summary><p>Een apparaat met internet en de diensten die je wilt koppelen.</p></details>
+          <details><summary>Kan ik het daarna zelf beheren?</summary><p>Ja, uitleg hoort bij de hulp zodat je zelfstandig verder kunt.</p></details>
+          <details><summary>Verlopen mijn gegevens ergens heen?</summary><p>Bij het inrichten werk je in je eigen accounts; ik help je alleen door de stappen heen. Op deze website zelf worden geen gegevens verzonden of opgeslagen.</p></details>
+          <details><summary>Kan ik later uitbreiden?</summary><p>Ja, we kunnen later altijd bots, koppelingen of routines toevoegen.</p></details>
+          <details><summary>Is deze dienst van Grok Bot zelf?</summary><p>Nee, dit is een onafhankelijke dienst.</p></details>
+        </div>
       </div>
     </section>
 
-    <section id="contact" aria-labelledby="h-contact">
+    <section id="contact" class="alt" aria-labelledby="h-contact">
       <div class="wrap">
         <h2 id="h-contact">Contact</h2>
         <p>Contactgegevens volgen binnenkort.</p>
+        <p class="contact-hint">Tot die tijd: verken de simulator en de demo hierboven om alvast te ontdekken wat er mogelijk is.</p>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="wrap">
+    <div class="wrap footer-inner">
       <p>© 2026 BBsS Ben Builds Solutions</p>
       <p>Onafhankelijke dienstverlening; niet verbonden aan Grok Bot.</p>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
